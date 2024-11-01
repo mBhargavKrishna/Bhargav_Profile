@@ -1,0 +1,90 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+.section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #00bcd4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding-left: 1rem;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+ul li::before {
+    content: '\2022';
+    color: #00bcd4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    position: absolute;
+    left: 0;
+}
+
+.key-achievements ul li::before {
+    content: '\25BA';
+}
+
+.projects ul li::before {
+    content: '\25B6';
+}
+
+.soft-skills span {
+    display: inline-block;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    margin: 0.3rem;
+}
+
+.certifications img {
+    width: 50px;
+    margin-right: 0.5rem;
+}
+
+.references {
+    font-style: italic;
+    color: #aaa;
+}
